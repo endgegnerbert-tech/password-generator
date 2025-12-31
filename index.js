@@ -20,14 +20,14 @@
             return password;
         }
 
-        function generateAndDisplay() {
+        document.getElementById('btngen').addEventListener('click', generateAndDisplay); function generateAndDisplay(){
             let pwd1 = generatePassword();
             let pwd2 = generatePassword();
             
             ps1.textContent = pwd1;
             ps2.textContent = pwd2;
         }
-        function copyPassword1() {
+        document.getElementById('copyBtn').addEventListener('click', copyPassword1); function copyPassword1() {
             //select the password or grab it 
             ps1.select;
 //copy the text to clipboard
@@ -36,7 +36,7 @@
             alert('Text copied: '+ps1.innerText);
 
         }
-        function copyPassword2() {
+    document.getElementById('copyBtn2').addEventListener('click', copyPassword2); function copyPassword2() { {
             //select the password or grab it 
             ps2.select;
 //copy the text to clipboard
@@ -45,7 +45,7 @@
             alert('Text copied: '+ps2.innerText);
 
         }
-
+    }
 
 
        function changeColor(){

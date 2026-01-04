@@ -4,6 +4,10 @@ body {
     text-align: center;
     background-color: black;
     color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
 }
 
 
